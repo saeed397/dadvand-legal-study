@@ -1,0 +1,11 @@
+streamlit
+pypdf
+pdfplumber
+python-docx
+Pillow
+pytesseract
+requests
+beautifulsoup4
+lxml
+arabic-reshaper
+python-bidi
