@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Database and legal archive data
+*.db
+*.sqlite
+*.sqlite3
+storage/*
+!storage/.gitkeep
+!storage/inbox/
+storage/inbox/*
+!storage/inbox/.gitkeep
+
+# Uploaded and temporary files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Test artifacts
+.coverage
+htmlcov/
